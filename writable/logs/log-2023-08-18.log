@@ -1,0 +1,30 @@
+WARNING - 2023-08-18 00:43:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-18 00:43:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-18 00:47:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-18 01:58:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-18 01:58:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-18 01:59:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

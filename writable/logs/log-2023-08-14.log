@@ -1,0 +1,118 @@
+CRITICAL - 2023-08-14 02:11:53 --> Class "App\Controllers\DessertModel" not found
+in APPPATH\Controllers\DessertController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DessertController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 02:17:15 --> Class "App\Controllers\DessertModel" not found
+in APPPATH\Controllers\DessertController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DessertController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 02:19:49 --> The route for "dessert-create" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('dessert-create')
+ 2 APPPATH\Views\dessert\index.php(27): url_to('dessert-create')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/index', [], true)
+ 6 APPPATH\Controllers\DessertController.php(25): view('dessert/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 02:21:51 --> The route for "dessert-create" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('dessert-create')
+ 2 APPPATH\Views\dessert\index.php(27): url_to('dessert-create')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/index', [], true)
+ 6 APPPATH\Controllers\DessertController.php(25): view('dessert/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 02:21:52 --> The route for "dessert-create" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('dessert-create')
+ 2 APPPATH\Views\dessert\index.php(27): url_to('dessert-create')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/index', [], true)
+ 6 APPPATH\Controllers\DessertController.php(25): view('dessert/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 02:21:53 --> The route for "dessert-create" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('dessert-create')
+ 2 APPPATH\Views\dessert\index.php(27): url_to('dessert-create')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/index', [], true)
+ 6 APPPATH\Controllers\DessertController.php(25): view('dessert/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 02:21:53 --> The route for "dessert-create" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('dessert-create')
+ 2 APPPATH\Views\dessert\index.php(27): url_to('dessert-create')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/index', [], true)
+ 6 APPPATH\Controllers\DessertController.php(25): view('dessert/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 02:21:53 --> The route for "dessert-create" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('dessert-create')
+ 2 APPPATH\Views\dessert\index.php(27): url_to('dessert-create')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/index', [], true)
+ 6 APPPATH\Controllers\DessertController.php(25): view('dessert/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 02:21:53 --> The route for "dessert-create" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('dessert-create')
+ 2 APPPATH\Views\dessert\index.php(27): url_to('dessert-create')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/index', [], true)
+ 6 APPPATH\Controllers\DessertController.php(25): view('dessert/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 02:29:05 --> Undefined array key "nama_makanan"
+in APPPATH\Views\dessert\index.php on line 47.
+ 1 APPPATH\Views\dessert\index.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_makanan"', 'C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php', 47)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/index', [], true)
+ 5 APPPATH\Controllers\DessertController.php(25): view('dessert/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-14 02:29:32 --> Undefined variable $heavy_meal
+in APPPATH\Views\dessert\index.php on line 51.
+ 1 APPPATH\Views\dessert\index.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heavy_meal', 'C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php', 51)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/index', [], true)
+ 5 APPPATH\Controllers\DessertController.php(25): view('dessert/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

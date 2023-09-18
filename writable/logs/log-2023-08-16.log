@@ -1,0 +1,374 @@
+CRITICAL - 2023-08-16 01:13:24 --> Undefined property: App\Controllers\DessertController::$Heavy_MealModel
+in APPPATH\Controllers\DessertController.php on line 59.
+ 1 APPPATH\Controllers\DessertController.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DessertController::$Heavy_MealModel', 'C:\\xampp\\htdocs\\restoran\\app\\Controllers\\DessertController.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->edit('1')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 01:13:41 --> Undefined property: App\Controllers\DessertController::$Heavy_MealModel
+in APPPATH\Controllers\DessertController.php on line 83.
+ 1 APPPATH\Controllers\DessertController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DessertController::$Heavy_MealModel', 'C:\\xampp\\htdocs\\restoran\\app\\Controllers\\DessertController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->delete('3')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 01:18:38 --> The route for "dessert-update" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('dessert-update')
+ 2 APPPATH\Views\dessert\edit.php(26): url_to('dessert-update')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\edit.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/edit', [], true)
+ 6 APPPATH\Controllers\DessertController.php(61): view('dessert/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->edit('2')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 01:19:10 --> Undefined variable $heavy_meal
+in APPPATH\Views\dessert\edit.php on line 37.
+ 1 APPPATH\Views\dessert\edit.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heavy_meal', 'C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\edit.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/edit', [], true)
+ 5 APPPATH\Controllers\DessertController.php(61): view('dessert/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 01:51:35 --> Undefined variable $heavy_meal
+in APPPATH\Views\dessert\edit.php on line 37.
+ 1 APPPATH\Views\dessert\edit.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $heavy_meal', 'C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\edit.php', 37)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\dessert\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/edit', [], true)
+ 5 APPPATH\Controllers\DessertController.php(61): view('dessert/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 02:03:20 --> The route for "drink" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('drink')
+ 2 APPPATH\Views\layouts\sidebar.php(37): url_to('drink')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\layouts\\sidebar.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\View\View.php(452): CodeIgniter\View\View->render('layouts/sidebar', null, true)
+ 6 APPPATH\Views\layouts\template.php(59): CodeIgniter\View\View->include('layouts/sidebar')
+ 7 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\layouts\\template.php')
+ 8 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/template', [], true)
+10 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('dessert/index', [], true)
+11 APPPATH\Controllers\DessertController.php(25): view('dessert/index', [...])
+12 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DessertController->index()
+13 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DessertController))
+14 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 02:39:35 --> The route for "drink-create" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('drink-create')
+ 2 APPPATH\Views\drink\index.php(28): url_to('drink-create')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\drink\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('drink/index', [], true)
+ 6 APPPATH\Controllers\DrinkController.php(25): view('drink/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-16 06:08:26 --> mysqli_sql_exception: Table 'restoran.kategori_minuman' doesn't exist in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\KategoriController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\KategoriController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-16 06:08:27 --> Table 'restoran.kategori_minuman' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kategori_minuman`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kategori_minuman`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kategori_minuman`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori_minuman`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\KategoriController.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KategoriController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-16 06:16:18 --> mysqli_sql_exception: Table 'restoran.kategori_minuman' doesn't exist in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\KategoriController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\KategoriController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-16 06:16:18 --> Table 'restoran.kategori_minuman' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `kategori_minuman`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `kategori_minuman`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `kategori_minuman`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kategori_minuman`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\KategoriController.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KategoriController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 06:16:43 --> The route for "kategori-create" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('kategori-create')
+ 2 APPPATH\Views\kategori\index.php(28): url_to('kategori-create')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\kategori\\index.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kategori/index', [], true)
+ 6 APPPATH\Controllers\KategoriController.php(25): view('kategori/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KategoriController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 06:38:46 --> The route for "kategori-store" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('kategori-store')
+ 2 APPPATH\Views\kategori\create.php(26): url_to('kategori-store')
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\kategori\\create.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kategori/create', [], true)
+ 6 APPPATH\Controllers\KategoriController.php(35): view('kategori/create', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KategoriController->create()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 06:40:00 --> Call to undefined function url_to9()
+in APPPATH\Views\kategori\create.php on line 38.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kategori/create', [], true)
+ 4 APPPATH\Controllers\KategoriController.php(35): view('kategori/create', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KategoriController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 07:07:28 --> Undefined variable $genre
+in APPPATH\Views\kategori\edit.php on line 28.
+ 1 APPPATH\Views\kategori\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $genre', 'C:\\xampp\\htdocs\\restoran\\app\\Views\\kategori\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\kategori\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kategori/edit', [], true)
+ 5 APPPATH\Controllers\KategoriController.php(57): view('kategori/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KategoriController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 07:15:54 --> Undefined variable $kategori_minuman
+in APPPATH\Controllers\KategoriController.php on line 43.
+ 1 APPPATH\Controllers\KategoriController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori_minuman', 'C:\\xampp\\htdocs\\restoran\\app\\Controllers\\KategoriController.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KategoriController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:40:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:41:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:41:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:41:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 07:41:54 --> Undefined array key "kategori"
+in APPPATH\Views\drink\create.php on line 40.
+ 1 APPPATH\Views\drink\create.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\xampp\\htdocs\\restoran\\app\\Views\\drink\\create.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\drink\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('drink/create', [], true)
+ 5 APPPATH\Controllers\DrinkController.php(38): view('drink/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:42:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 07:42:53 --> Undefined array key "kategori"
+in APPPATH\Views\drink\create.php on line 40.
+ 1 APPPATH\Views\drink\create.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kategori"', 'C:\\xampp\\htdocs\\restoran\\app\\Views\\drink\\create.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\drink\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('drink/create', [], true)
+ 5 APPPATH\Controllers\DrinkController.php(38): view('drink/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:43:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:43:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:44:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:50:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 07:58:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 08:33:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 08:34:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 08:38:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 08:38:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 08:38:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-16 08:41:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\kategori\edit.php on line 28.
+ 1 APPPATH\Views\kategori\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\restoran\\app\\Views\\kategori\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\restoran\\app\\Views\\kategori\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kategori/edit', [], true)
+ 5 APPPATH\Controllers\KategoriController.php(57): view('kategori/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KategoriController->edit('0')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 09:18:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 09:19:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 09:19:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 09:23:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-16 09:29:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

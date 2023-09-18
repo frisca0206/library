@@ -1,0 +1,390 @@
+WARNING - 2023-08-22 08:30:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:40:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:40:29 --> mysqli_sql_exception: Unknown column 'kategori.kategori' in 'field list' in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`....', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`....')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`....')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`....', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-22 08:40:29 --> Unknown column 'kategori.kategori' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`.*, `kategori`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`.*, `kategori`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`.*, `kategori`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`.*, `kategori`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:41:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:41:05 --> mysqli_sql_exception: Unknown column 'kategori_minuman.kategori_minuman' in 'field list' in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`....', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`....')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`....')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`....', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-22 08:41:05 --> Unknown column 'kategori_minuman.kategori_minuman' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:41:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:41:07 --> mysqli_sql_exception: Unknown column 'kategori_minuman.kategori_minuman' in 'field list' in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`....', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`....')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`....')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`....', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-22 08:41:07 --> Unknown column 'kategori_minuman.kategori_minuman' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:44:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:44:01 --> mysqli_sql_exception: Table 'restoran.kategori_minuman' doesn't exist in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`....', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`....')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`....')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`....', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-22 08:44:01 --> Table 'restoran.kategori_minuman' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori_minuman` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori_minuman` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori_minuman` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori_minuman` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:44:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:44:22 --> mysqli_sql_exception: Unknown column 'kategori_minuman.kategori_minuman' in 'field list' in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`....', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`....')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`....')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`....', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-22 08:44:22 --> Unknown column 'kategori_minuman.kategori_minuman' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`.*, `kategori_minuman`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:47:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:47:37 --> mysqli_sql_exception: Unknown column 'kategori_minuman.id' in 'on clause' in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`....', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`....')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`....')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`....', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-22 08:47:37 --> Unknown column 'kategori_minuman.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`.*, `kategori`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`.*, `kategori`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`.*, `kategori`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`.*, `kategori`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:48:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:48:25 --> mysqli_sql_exception: Unknown column 'kategori.kategori' in 'field list' in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`....', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`....')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`....')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`....', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-22 08:48:25 --> Unknown column 'kategori.kategori' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`.*, `kategori`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`.*, `kategori`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`.*, `kategori`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`.*, `kategori`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:48:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:48:44 --> mysqli_sql_exception: Unknown column 'kategori_minuman.kategori' in 'field list' in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`....', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`....')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`....')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`....', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-22 08:48:44 --> Unknown column 'kategori_minuman.kategori' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`.*, `kategori_minuman`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`.*, `kategori_minuman`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`.*, `kategori_minuman`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`.*, `kategori_minuman`.`kategori`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:48:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-22 08:48:52 --> mysqli_sql_exception: Unknown column 'kategori_minuman.id' in 'on clause' in C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\restoran\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`....', 0)
+#1 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`....')
+#2 C:\xampp\htdocs\restoran\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`....')
+#3 C:\xampp\htdocs\restoran\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`....', Array, false)
+#4 C:\xampp\htdocs\restoran\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restoran\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\restoran\app\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\restoran\system\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+#8 C:\xampp\htdocs\restoran\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+#9 C:\xampp\htdocs\restoran\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restoran\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-22 08:48:52 --> Unknown column 'kategori_minuman.id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `drink`.*, `kategori`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `drink`.*, `kategori`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `drink`.*, `kategori`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `drink`.*, `kategori`.`kategori_minuman`
+FROM `drink`
+JOIN `kategori` ON `kategori_minuman`.`id` = `drink`.`kategori_minuman_id`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\DrinkController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\DrinkController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DrinkController))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:49:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:49:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:49:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:49:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-08-22 08:52:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\DrinkController::$KategoriModel is deprecated in APPPATH\Controllers\DrinkController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\DrinkController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
